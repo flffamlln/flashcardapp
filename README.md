@@ -6,7 +6,7 @@
 Simply question and answer single flashcard application that changes when users click the screen.
 
 ### App Walk-though
-<img src="https://gph.is/g/4VD3NLO" width=200><br>
+<img src="https://media.giphy.com/media/G8KBY9HMfdy02ewknQ/giphy.gif" width=200><br>
 
 
 ## Required
