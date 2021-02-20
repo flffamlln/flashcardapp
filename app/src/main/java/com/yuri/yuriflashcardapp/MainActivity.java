@@ -11,7 +11,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.flashcard_answer).setOnClickListener(new View.OnClickListener(){
+
+
+        findViewById(R.id.flashcard_question).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 findViewById(R.id.flashcard_answer).setVisibility(View.VISIBLE);
