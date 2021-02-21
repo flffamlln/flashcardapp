@@ -12,6 +12,12 @@
         android:text="What is a programmer's favorite drink?"
         android:textSize="40sp"
         android:gravity="center"
+        android:background="@drawable/card_background2"
+        android:textColor="@color/white"
+        android:elevation="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         />
 
     <TextView
@@ -22,5 +28,56 @@
         android:gravity="center"
         android:text="Java"
         android:visibility="invisible"
+        android:background="@drawable/card_background"
+        android:elevation="8dp"
+        android:textColor="#7d5e4d"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <TextView
+        android:id="@+id/option_one"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Water"
+        android:background="#edeab9"
+        android:textColor="#eb9de2"
+        android:layout_below="@id/flashcard_question"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/option_two"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Java"
+        android:background="#edeab9"
+        android:textColor="#eb9de2"
+        android:layout_below="@id/option_one"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/option_three"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Lemonade"
+        android:background="#edeab9"
+        android:textColor="#eb9de2"
+        android:layout_below="@id/option_two"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         />
 </RelativeLayout>
