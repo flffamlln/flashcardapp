@@ -4,7 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddCardActivity"
-    android:background="@color/green">
+    tools:context=".AddCardActivity">
 
+    <EditText
+        android:id="@+id/enterquestion"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="100px"
+        android:layout_alignParentTop="true"
+        android:inputType="textMultiLine"
+        android:hint="Enter the question here" />
+
+    <EditText
+        android:id="@+id/enteranswer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/enterquestion"
+        android:inputType="textMultiLine"
+        android:hint="Enter the answer here"/>
+
+    <ImageView
+        android:id="@+id/save"
+        android:src="@drawable/save"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft = "true"
+        android:layout_margin="25dp"/>
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:src="@drawable/cancel"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"/>
 </RelativeLayout>
