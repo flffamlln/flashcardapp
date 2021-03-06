@@ -36,48 +36,12 @@
         android:layout_marginRight="15dp"
         />
 
-    <TextView
-        android:id="@+id/option_one"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/add"
+        android:src="@drawable/plus"
+        android:layout_width="70dp"
         android:layout_height="70dp"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:text="Water"
-        android:background="#edeab9"
-        android:textColor="#790e8f"
-        android:layout_below="@id/flashcard_question"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
-
-    <TextView
-        android:id="@+id/option_two"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:text="Java"
-        android:background="#edeab9"
-        android:textColor="#790e8f"
-        android:layout_below="@id/option_one"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
-
-    <TextView
-        android:id="@+id/option_three"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:text="Lemonade"
-        android:background="#edeab9"
-        android:textColor="#790e8f"
-        android:layout_below="@id/option_two"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"/>
 </RelativeLayout>

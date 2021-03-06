@@ -2,6 +2,7 @@ package com.yuri.yuriflashcardapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -29,27 +30,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.option_one).setOnClickListener(new View.OnClickListener(){
+        findViewById(R.id.add).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                findViewById(R.id.option_one).setBackgroundColor(getResources().getColor(R.color.red, null));
-                findViewById(R.id.option_two).setBackgroundColor(getResources().getColor(R.color.green, null));
+                Intent intent = new Intent(MainActivity.this, AddCardActivity.class);
+                MainActivity.this.startActivity(intent);
             }
         });
 
-        findViewById(R.id.option_three).setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                findViewById(R.id.option_three).setBackgroundColor(getResources().getColor(R.color.red, null));
-                findViewById(R.id.option_two).setBackgroundColor(getResources().getColor(R.color.green, null));
-            }
-        });
-
-        findViewById(R.id.option_two).setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                findViewById(R.id.option_two).setBackgroundColor(getResources().getColor(R.color.green, null));
-            }
-        });
     }
 }
