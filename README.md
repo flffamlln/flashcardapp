@@ -6,7 +6,7 @@
 Simple flashcard app that allows users to add their own flashcard with their customized question and answer.
 
 ### App Walk-though
-<img src="https://media.giphy.com/media/UegcMfv4t3RxdJJurn/giphy.gif" width=200><br>
+<img src="https://media.giphy.com/media/1eINWEReCRdC9wsRjQ/giphy.gif" width=200><br>
 
 ## Required
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
