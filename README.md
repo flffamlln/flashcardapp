@@ -17,10 +17,10 @@ Simple flashcard app that allows users to add their own flashcard with their cus
 
 ## Optional
 - [ ] User can edit a card
-- [ ] An error message is shown if the user doesn't enter both a Question and an Answer
+- [x] An error message is shown if the user doesn't enter both a Question and an Answer
 - [ ] A notification is shown if the card was created successfully
 - [ ] User can also enter multiple choice answers when creating a card
-- [ ] App is further styled and customized!
+- [x] App is further styled and customized!
 
 ## Lab 1
 
