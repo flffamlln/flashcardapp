@@ -42,4 +42,4 @@ Simple question and answer single flashcard application that changes when users 
 - [x] Style the question and answer side of the card to better distinguish between the two sides
 - [x] Add selectable multiple choice answers beneath the card
    - [x] Change the background color of the multiple choice answers when clicked to indicate whether the question was answered correctly
-- [ ] Further customize and style the card
+- [x] Further customize and style the card
